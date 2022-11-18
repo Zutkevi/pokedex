@@ -1,10 +1,13 @@
 <?php
 
+session_start();
+
 include 'con_db.php';
 // recibir datos por medio del metodo post
 $username=$_POST['username'];
 $email=$_POST['email'];
 $pass=$_POST['pass'];
+$pass= hash('sha512', $pass);
 
 // insertar los datos ne la base de datos
 
