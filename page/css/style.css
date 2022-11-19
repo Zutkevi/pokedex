@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 *{
     margin: 0;
@@ -303,5 +301,3 @@ body.dark .switch::before{
 body.dark .home .text{
     color: var(--text-color);
 }
-
-/* css de la pagina en si */
